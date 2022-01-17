@@ -1,51 +1,81 @@
 import styled, {createGlobalStyle} from 'styled-components';
+import { Header, Anchor } from 'grommet';
 
 export const HeaderSection = styled.div `
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;  
   position: relative;
-  background-color: #E8C17B;
-  padding-top: 21px;
+  background-color: #fff;
+  padding-top: 5px;
   padding-bottom: 0px;
-  box-shadow: 0 3px 6px rgba(0, 0, 0, .16);
   margin-bottom: 0px;
-  z-index: 999;
+  border-bottom: 1px solid #eaeaea;
 `;
 
-export const HeaderWrapper = styled.div `
-  position: relative;
-  max-width: 1800px;
-  padding-right: 25px;
-  padding-left: 25px;
-  margin: 0 auto;
+export const HeaderWrapper = styled(Header)`
+  width: 1000px;
 `;
 
-// export const TopMenu = styled(Button)`
-//   margin-top: 10px;
-//   color: #707070;
-//   font-size: 13px;
-//   font-weight: regular;
-//   :hover {
-//     color: #333;
-//   }
-//   :focus {
-//     color: #333;
-//   }
-//   :active {
-//     color: #333;
-//   }
-// `;
+export const SymbolLogo = styled(Anchor)`
+  line-height:0px;
+  :hover {
+    color: #555;
+    text-decoration: none;
+  }
+  :focus {
+    color:#555;
+    text-decoration: none;
+  }
+  :active {
+    color: #555;
+    text-decoration: none;
+  }
+`;
 
-// export const MainMenu = styled(Button)`
-//   color: #fff;
-//   padding-bottom: 30px;
-//   font-size: 16px;
-//   font-weight: bold;
-//   :hover {
-//     color: #214C2D;
-//   }
-//   :focus {
-//     color: #214C2D;
-//   }
-//   :active {
-//     color: #214C2D;
-//   }
-// `;
+export const LoginAnchor = styled(Anchor)`
+  color: #777;
+  background: #FFF;
+  border-radius: 0.25rem;
+  padding: 0.7rem;
+  :hover {
+    color: #1A1311;
+    background: #F0F0F0;
+    text-decoration: none;
+  }
+  :focus {
+    color: #1A1311;
+    background: #F0F0F0;
+    text-decoration: none;
+  }
+  :active {
+    color: #1A1311;
+    background: #F0F0F0;
+    text-decoration: none;
+  }
+`;
+
+export const SignupAnchor = styled(Anchor)`
+  color: #FFF;
+  background: #1A1311;
+  border-radius: 0.25rem;
+  padding: 0.7rem;
+  :hover {
+    color: #FFF;
+    background: #777;
+    text-decoration: none;
+  }
+  :focus {
+    color: #FFF;
+    background: #777;
+    text-decoration: none;
+  }
+  :active {
+    color: #FFF;
+    background: #777;
+    text-decoration: none;
+  }
+`;
+

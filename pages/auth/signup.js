@@ -14,8 +14,8 @@ export default() => {
     return (
         <ContainerMain>
             <Head> 
-                <title>백곰톡 :: _blank</title>
-                <meta name="description" content="백곰톡 _blank"/>
+                <title>백곰톡 :: 회원가입</title>
+                <meta name="description" content="백곰톡 회원가입"/>
                 <link rel="icon" href="/favicon.ico"/>
             </Head>
             <Box gap="medium" align="center" pad="large">

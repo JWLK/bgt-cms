@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="current" height="current" viewBox="0 0 256 256">
+  <defs>
+    <filter id="배경" x="41.965" y="45.245" width="172.07" height="171.51" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.329"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="symbol" transform="translate(-811.806 -167)">
+    <circle id="Ellipse_3" data-name="Ellipse 3" cx="128" cy="128" r="128" transform="translate(811.806 167)" fill="current"/>
+    <g id="icon" transform="translate(862.771 218.245)">
+      <g transform="matrix(1, 0, 0, 1, -50.97, -51.24)" filter="url(#배경)">
+        <path id="배경-2" data-name="배경" d="M95.151,77.695a15.039,15.039,0,0,0-7.719,27.952l1.479.886L87.857,107.9a68.039,68.039,0,0,0-14.41,42,68.8,68.8,0,0,0,24.3,52.362l.437.372.149,1.007c.063.432.123.866.212,1.323,2,10.382,6.29,17.825,12.748,22.118a26.02,26.02,0,0,0,14.658,4.126c-3.367-3.178-5.262-7.833-5.647-13.891l-.141-2.209,2.116.649a68.331,68.331,0,0,0,20.031,3H158.66a68.935,68.935,0,0,0,68.857-68.857,68.04,68.04,0,0,0-14.442-42.038l-1.049-1.355,1.468-.89a15.039,15.039,0,0,0-7.782-27.915A15.1,15.1,0,0,0,191.6,87.548l-.592,1.611-1.533-.775a67.773,67.773,0,0,0-30.818-7.351H142.305a67.775,67.775,0,0,0-30.9,7.394l-1.535.78-.592-1.618A15.1,15.1,0,0,0,95.151,77.695Z" transform="translate(-22.48 -26.45)" fill="#fff"/>
+      </g>
+      <g id="눈" transform="translate(48.412 49.459)">
+        <circle id="Ellipse_1" data-name="Ellipse 1" cx="5.027" cy="5.027" r="5.027" fill="#1a1311"/>
+        <circle id="Ellipse_2" data-name="Ellipse 2" cx="5.027" cy="5.027" r="5.027" transform="translate(47.192)" fill="#1a1311"/>
+      </g>
+      <g id="코" transform="translate(45.93 64.367)">
+        <g id="Group_9" data-name="Group 9" transform="translate(0 0)">
+          <path id="Path_4" data-name="Path 4" d="M150.459,118.312c17.021,0,30.867,6.98,30.867,24a30.865,30.865,0,1,1-61.731,0C119.6,125.292,133.44,118.312,150.459,118.312Zm0,50.345a26.379,26.379,0,0,0,26.349-26.348c0-14.527-11.821-19.478-26.349-19.478s-26.345,4.951-26.345,19.478A26.378,26.378,0,0,0,150.459,168.657Z" transform="translate(-119.595 -118.312)" fill="#f5f5f5"/>
+          <path id="Path_17" d="M30.872,0C47.9,0,61.744,7,61.744,24.029A30.872,30.872,0,0,1,0,24.029C0,7,13.842,0,30.872,0Z" transform="translate(0 0)" fill="#f5f5f5"/>
+        </g>
+        <path id="Path_3" data-name="Path 3" d="M151.273,139.894c0,3.791-3.836,8.387-8.568,8.387s-8.567-4.6-8.567-8.387,3.836-4.663,8.567-4.663S151.273,136.1,151.273,139.894Z" transform="translate(-111.6 -126.498)" fill="#1a1311"/>
+      </g>
+      <path id="귀-좌" d="M17.135,4.663c0,3.791-3.836,8.387-8.568,8.387S0,8.453,0,4.663,3.836,0,8.567,0,17.135.871,17.135,4.663Z" transform="translate(17.666 4.731) rotate(30)" fill="#1a1311"/>
+      <path id="귀-우" d="M17.135,8.387C17.135,4.6,13.3,0,8.567,0S0,4.6,0,8.387s3.836,4.663,8.567,4.663S17.135,12.178,17.135,8.387Z" transform="translate(142.93 16.032) rotate(150)" fill="#1a1311"/>
+    </g>
+  </g>
+</svg>
