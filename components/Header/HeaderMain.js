@@ -35,12 +35,10 @@ const HeaderMain = () => {
                                     icon={<MenuIcon color="brand"/>}
                                     items={[
                                         {
-                                            label: <Box pad="small">Grommet.io</Box>,
-                                            href: 'https://v2.grommet.io/',
+                                            label: <Link href="/auth/login"><a><Box pad="small">로그인</Box></a></Link>,
                                         },
                                         {
-                                            label: <Box pad="small">Feedback</Box>,
-                                            href: 'https://github.com/grommet/grommet/issues',
+                                            label: <Link href="/auth/signup"><a><Box pad="small">회원가입</Box></a></Link>,
                                         },
                                     ]}
                                 />
